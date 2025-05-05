@@ -91,12 +91,13 @@ Copy inside root/test/support the setup-environment-variables.ts file for the in
 
 Eventually change needed variables like application port or database host and name.
 
-The project could give an error for missing metadata (for swagger plugin), should be automatically created on first project start.
-
 ## Compile and run the project
 
 ```bash
 port set 3011 to avoid sharing the standard port with other applications
+
+# build
+$ npm run build
 
 # development start
 $ npm run start
